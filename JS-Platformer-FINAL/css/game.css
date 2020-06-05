@@ -1,0 +1,31 @@
+.background    { background: #091e36;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #546bab; }
+.wall          { background: #35336b; }
+.floater       { background: #ffec9c; }
+
+.actor  { position: absolute;  }
+.player { background: #fdf4e8;
+          background-image: url("monkey.png");
+          background-size: 20px 30px;}
+.coin { background:	#fff2cd; }
+.astroid { background: #85271b; }
+.blackhole { background: black; }
+.chest {background-image: url("flag.png");
+        background-size: 40px 20px;}
+
+.game {
+  overflow: hidden;
+  max-width: 3000px;
+  max-height: 800px;
+  position: relative;
+}
+
+.lost .player {
+  background: #546bab;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
